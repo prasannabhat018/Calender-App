@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Month: Int {
+enum Month: Int, Equatable {
     case jan = 1
     case feb
     case mar

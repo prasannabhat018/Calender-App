@@ -34,7 +34,7 @@ struct CalenderDate {
     // possible scenarios
     // Next Month and same year - Ex - oct'24 will become nov'24
     // Next Month and next year - Ex - dec'24 will become jan'25
-    private func getNextMonth(_ month: Month) -> (month: Month, year: Int) {
+    func getNextMonth(_ month: Month) -> (month: Month, year: Int) {
         if let nextMonth = Month(rawValue: month.rawValue + 1) {
             return (nextMonth, year)
         }
@@ -56,7 +56,7 @@ struct CalenderDate {
         }
     }
     
-    private var isLeapYear: Bool {
+    var isLeapYear: Bool {
         if year % 400 == 0 { return true }
         if year % 100 == 0 { return false }
         if year % 4 == 0 { return true }
