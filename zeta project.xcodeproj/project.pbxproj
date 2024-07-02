@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		151FBAB52C33EB0D00BB333C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAB42C33EB0D00BB333C /* AppDelegate.swift */; };
 		151FBAB72C33EB0D00BB333C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAB62C33EB0D00BB333C /* SceneDelegate.swift */; };
-		151FBAB92C33EB0D00BB333C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAB82C33EB0D00BB333C /* ViewController.swift */; };
-		151FBABC2C33EB0D00BB333C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151FBABA2C33EB0D00BB333C /* Main.storyboard */; };
 		151FBABE2C33EB0F00BB333C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151FBABD2C33EB0F00BB333C /* Assets.xcassets */; };
 		151FBAC12C33EB0F00BB333C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151FBABF2C33EB0F00BB333C /* LaunchScreen.storyboard */; };
 		151FBACC2C33EB0F00BB333C /* zeta_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBACB2C33EB0F00BB333C /* zeta_projectTests.swift */; };
 		151FBAD62C33EB1000BB333C /* zeta_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAD52C33EB1000BB333C /* zeta_projectUITests.swift */; };
 		151FBAD82C33EB1000BB333C /* zeta_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAD72C33EB1000BB333C /* zeta_projectUITestsLaunchTests.swift */; };
+		151FBAE52C33EB2100BB333C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAE42C33EB2100BB333C /* MainViewController.swift */; };
+		151FBAE82C33F46200BB333C /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAE72C33F46200BB333C /* CalenderView.swift */; };
+		151FBAEA2C33F48E00BB333C /* LabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAE92C33F48E00BB333C /* LabelButton.swift */; };
+		151FBAEC2C33F4C800BB333C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAEB2C33F4C800BB333C /* Extensions.swift */; };
+		151FBAF02C33F50500BB333C /* NetworkHelpable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAEF2C33F50500BB333C /* NetworkHelpable.swift */; };
+		151FBAF22C33F59C00BB333C /* CalenderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAF12C33F59C00BB333C /* CalenderAPI.swift */; };
+		151FBAF42C33F5CB00BB333C /* MockNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAF32C33F5CB00BB333C /* MockNetwork.swift */; };
+		151FBAF72C33F63200BB333C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAF62C33F63200BB333C /* Event.swift */; };
+		151FBAFA2C33F66200BB333C /* CalenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAF92C33F66200BB333C /* CalenderViewModel.swift */; };
+		151FBAFC2C33F69D00BB333C /* CalenderViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAFB2C33F69D00BB333C /* CalenderViewData.swift */; };
+		151FBAFE2C34017700BB333C /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FBAFD2C34017700BB333C /* Month.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		151FBAB12C33EB0D00BB333C /* zeta project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zeta project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		151FBAB42C33EB0D00BB333C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		151FBAB62C33EB0D00BB333C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		151FBAB82C33EB0D00BB333C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		151FBABB2C33EB0D00BB333C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		151FBABD2C33EB0F00BB333C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		151FBAC02C33EB0F00BB333C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		151FBAC22C33EB0F00BB333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		151FBAD12C33EB1000BB333C /* zeta projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zeta projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		151FBAD52C33EB1000BB333C /* zeta_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeta_projectUITests.swift; sourceTree = "<group>"; };
 		151FBAD72C33EB1000BB333C /* zeta_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeta_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		151FBAE42C33EB2100BB333C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		151FBAE72C33F46200BB333C /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		151FBAE92C33F48E00BB333C /* LabelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButton.swift; sourceTree = "<group>"; };
+		151FBAEB2C33F4C800BB333C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		151FBAEF2C33F50500BB333C /* NetworkHelpable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpable.swift; sourceTree = "<group>"; };
+		151FBAF12C33F59C00BB333C /* CalenderAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderAPI.swift; sourceTree = "<group>"; };
+		151FBAF32C33F5CB00BB333C /* MockNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetwork.swift; sourceTree = "<group>"; };
+		151FBAF62C33F63200BB333C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		151FBAF92C33F66200BB333C /* CalenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewModel.swift; sourceTree = "<group>"; };
+		151FBAFB2C33F69D00BB333C /* CalenderViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewData.swift; sourceTree = "<group>"; };
+		151FBAFD2C34017700BB333C /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,17 @@
 		151FBAB32C33EB0D00BB333C /* zeta project */ = {
 			isa = PBXGroup;
 			children = (
+				151FBAF82C33F64D00BB333C /* ViewModel */,
+				151FBAF52C33F62100BB333C /* Model */,
+				151FBAEE2C33F4F500BB333C /* Network */,
+				151FBAED2C33F4D800BB333C /* Utility */,
+				151FBAE62C33F45200BB333C /* UI */,
 				151FBAB42C33EB0D00BB333C /* AppDelegate.swift */,
 				151FBAB62C33EB0D00BB333C /* SceneDelegate.swift */,
-				151FBAB82C33EB0D00BB333C /* ViewController.swift */,
-				151FBABA2C33EB0D00BB333C /* Main.storyboard */,
 				151FBABD2C33EB0F00BB333C /* Assets.xcassets */,
 				151FBABF2C33EB0F00BB333C /* LaunchScreen.storyboard */,
 				151FBAC22C33EB0F00BB333C /* Info.plist */,
+				151FBAE42C33EB2100BB333C /* MainViewController.swift */,
 			);
 			path = "zeta project";
 			sourceTree = "<group>";
@@ -125,6 +147,51 @@
 				151FBAD72C33EB1000BB333C /* zeta_projectUITestsLaunchTests.swift */,
 			);
 			path = "zeta projectUITests";
+			sourceTree = "<group>";
+		};
+		151FBAE62C33F45200BB333C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				151FBAE72C33F46200BB333C /* CalenderView.swift */,
+				151FBAE92C33F48E00BB333C /* LabelButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		151FBAED2C33F4D800BB333C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				151FBAEB2C33F4C800BB333C /* Extensions.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		151FBAEE2C33F4F500BB333C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				151FBAEF2C33F50500BB333C /* NetworkHelpable.swift */,
+				151FBAF12C33F59C00BB333C /* CalenderAPI.swift */,
+				151FBAF32C33F5CB00BB333C /* MockNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		151FBAF52C33F62100BB333C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				151FBAF62C33F63200BB333C /* Event.swift */,
+				151FBAFD2C34017700BB333C /* Month.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		151FBAF82C33F64D00BB333C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				151FBAF92C33F66200BB333C /* CalenderViewModel.swift */,
+				151FBAFB2C33F69D00BB333C /* CalenderViewData.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +300,6 @@
 			files = (
 				151FBAC12C33EB0F00BB333C /* LaunchScreen.storyboard in Resources */,
 				151FBABE2C33EB0F00BB333C /* Assets.xcassets in Resources */,
-				151FBABC2C33EB0D00BB333C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				151FBAB92C33EB0D00BB333C /* ViewController.swift in Sources */,
+				151FBAF02C33F50500BB333C /* NetworkHelpable.swift in Sources */,
 				151FBAB52C33EB0D00BB333C /* AppDelegate.swift in Sources */,
 				151FBAB72C33EB0D00BB333C /* SceneDelegate.swift in Sources */,
+				151FBAE82C33F46200BB333C /* CalenderView.swift in Sources */,
+				151FBAFC2C33F69D00BB333C /* CalenderViewData.swift in Sources */,
+				151FBAF72C33F63200BB333C /* Event.swift in Sources */,
+				151FBAF22C33F59C00BB333C /* CalenderAPI.swift in Sources */,
+				151FBAEA2C33F48E00BB333C /* LabelButton.swift in Sources */,
+				151FBAFA2C33F66200BB333C /* CalenderViewModel.swift in Sources */,
+				151FBAF42C33F5CB00BB333C /* MockNetwork.swift in Sources */,
+				151FBAE52C33EB2100BB333C /* MainViewController.swift in Sources */,
+				151FBAEC2C33F4C800BB333C /* Extensions.swift in Sources */,
+				151FBAFE2C34017700BB333C /* Month.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		151FBABA2C33EB0D00BB333C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				151FBABB2C33EB0D00BB333C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		151FBABF2C33EB0F00BB333C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +515,6 @@
 				INFOPLIST_FILE = "zeta project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +542,6 @@
 				INFOPLIST_FILE = "zeta project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
